@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0415\u0433\u043E\u0440\\source\\repos\\EIS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C575255-3120-4158-90A1-B2D3360F8F3A}|EIS\\EIS.csproj|c:\\users\\\u0435\u0433\u043E\u0440\\source\\repos\\eis\\eis\\pages\\ktru_category.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C575255-3120-4158-90A1-B2D3360F8F3A}|EIS\\EIS.csproj|solutionrelative:eis\\pages\\ktru_category.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C575255-3120-4158-90A1-B2D3360F8F3A}|EIS\\EIS.csproj|c:\\users\\\u0435\u0433\u043E\u0440\\source\\repos\\eis\\eis\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C575255-3120-4158-90A1-B2D3360F8F3A}|EIS\\EIS.csproj|solutionrelative:eis\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C575255-3120-4158-90A1-B2D3360F8F3A}|EIS\\EIS.csproj|c:\\users\\\u0435\u0433\u043E\u0440\\source\\repos\\eis\\eis\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C575255-3120-4158-90A1-B2D3360F8F3A}|EIS\\EIS.csproj|solutionrelative:eis\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C575255-3120-4158-90A1-B2D3360F8F3A}|EIS\\EIS.csproj|c:\\users\\\u0435\u0433\u043E\u0440\\source\\repos\\eis\\eis\\pages\\ktru_category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C575255-3120-4158-90A1-B2D3360F8F3A}|EIS\\EIS.csproj|solutionrelative:eis\\pages\\ktru_category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C575255-3120-4158-90A1-B2D3360F8F3A}|EIS\\EIS.csproj|c:\\users\\\u0435\u0433\u043E\u0440\\source\\repos\\eis\\eis\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C575255-3120-4158-90A1-B2D3360F8F3A}|EIS\\EIS.csproj|solutionrelative:eis\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KTRU_Category.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0415\u0433\u043E\u0440\\source\\repos\\EIS\\EIS\\Pages\\KTRU_Category.cshtml",
+              "RelativeDocumentMoniker": "EIS\\Pages\\KTRU_Category.cshtml",
+              "ToolTip": "C:\\Users\\\u0415\u0433\u043E\u0440\\source\\repos\\EIS\\EIS\\Pages\\KTRU_Category.cshtml",
+              "RelativeToolTip": "EIS\\Pages\\KTRU_Category.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAG0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-22T15:14:39.144Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KTRU_Category.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0415\u0433\u043E\u0440\\source\\repos\\EIS\\EIS\\Pages\\KTRU_Category.cshtml.cs",
+              "RelativeDocumentMoniker": "EIS\\Pages\\KTRU_Category.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0415\u0433\u043E\u0440\\source\\repos\\EIS\\EIS\\Pages\\KTRU_Category.cshtml.cs",
+              "RelativeToolTip": "EIS\\Pages\\KTRU_Category.cshtml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAgwDoAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T15:14:54.3Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0415\u0433\u043E\u0440\\source\\repos\\EIS\\EIS\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "EIS\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u0415\u0433\u043E\u0440\\source\\repos\\EIS\\EIS\\Pages\\Index.cshtml",
+              "RelativeToolTip": "EIS\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAEwF0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-22T21:26:25.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0415\u0433\u043E\u0440\\source\\repos\\EIS\\EIS\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "EIS\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0415\u0433\u043E\u0440\\source\\repos\\EIS\\EIS\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "EIS\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAwwNkAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T15:26:25.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\\u0415\u0433\u043E\u0440\\source\\repos\\EIS\\EIS\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "EIS\\Model\\Product.cs",
+              "ToolTip": "C:\\Users\\\u0415\u0433\u043E\u0440\\source\\repos\\EIS\\EIS\\Model\\Product.cs",
+              "RelativeToolTip": "EIS\\Model\\Product.cs",
+              "ViewState": "AgIAAPsAAAAAAAAAAAAAAAQBAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T17:12:46.318Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+﻿@page
+@using System.Net.Http;
+@using EIS.Model
+@using EIS.Pages.Shared
+@using static EIS.Pages.KTRUPositionSearchModel
+@model Pages.KTRUPositionSearchModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<h2>@Model.Message</h2>
+<div class="container w-auto">
+    <form method="post">
+        <input type="text" name="_KTRUPosition" />
+        <input type="submit" asp-page-handler="Search" value="Поиск" />
+        @{
+            if (Model.IsPost)
+            {
+
+                if (!GroupedBM)
+                {
+                    <input type="submit" asp-page-handler="GroupByMounth" value="Сгруппировать по месяцам" />
+                }
+                else
+                {
+                    <input type="submit" asp-page-handler="UnGroupByMounth" value="Не группировать по месяцам" />
+                }
+                <input type="submit" asp-page-handler="Report" value="Скачать отчёт .XLSX" />
+                <br>
+                <div class="row row justify-content-start">
+                    <div class="col-md-2">От <input class="form-control" asp-for="dateStart" min='@productsFiltred.First().Date' /> </div>
+                    <div class="col-md-2">До <input class="form-control" asp-for="dateEnd" max="dateEnd" /></div>
+
+                </div>
+                <br />
+                <div class="row row justify-content-start h-auto">
+                    <div class="col-md-2 h-auto">
+                        <input type="submit" asp-page-handler="FiltrByTime" value="Отфильтровать" />
+
+                    </div>
+                    <div class="col-md-2 h-auto">
+                        @if (Filtred)
+                        {
+                            <input type="submit" asp-page-handler="UnFilter" value="Сбросить фильтры" />
+                        }
+
+                    </div>
+                </div>
+
+             
+
+            }
+        
+        }
+    </form>
+</div>
+@{
+    if (Model.IsPost)
+    {
+
+
+        <table>
+          <thead>
+            <tr>
+                <th>
+                        <div class="container">Средняя цена с @productsFiltred.First().Date.ToString().Replace(" 0:00:00", "") до @productsFiltred.Last().Date.ToString().Replace(" 0:00:00", ""): @Product.ProductAvrPrice(productsFiltred)  </div>
+                    <script src="//cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
+
+                    <script src="//cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
+
+                    <div>@Html.Raw(Model.ChartPriceJson)</div>
+                </th>
+                <th>
+                        <div class="container">Количество проданного товара с @productsFiltred.First().Date.ToString().Replace(" 0:00:00", "") до @productsFiltred.Last().Date.ToString().Replace(" 0:00:00", ""): @SumCount @productsFiltred.First().UoM</div>
+                    <script src="//cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
+
+                    <script src="//cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
+
+                    <div>@Html.Raw(Model.ChartCountJson)</div>
+
+                </th>
+            </tr>
+                
+          </thead>
+        </table>
+
+
+
+
+        productsFiltred.Reverse();
+        foreach (Product product in productsFiltred)
+        {
+            <div class="p-1">
+                <a>Название: @product.Name</a>
+                
+                <br>
+                Контракт: <a href="@product.URL">№@product.URL.Replace("https://zakupki.gov.ru/epz/contract/contractCard/payment-info-and-target-of-order.html?reestrNumber=", "");</a>
+                <a>Цена: @Math.Round(@product.Price, 2);</a>
+                <a>Количество: @product.Count;</a>
+                <a>Сумма: @Math.Round(product.TotPrice, 2);</a>
+                <a>Дата: @product.Date.ToString().Replace(" 0:00:00", "")</a>
+            </div>
+            //Html.PartialAsync("TicketTree", obj)
+        }
+        productsFiltred.Reverse();
+
+        
+    }
+}
+
+
+
+
+
+
+
+
+
